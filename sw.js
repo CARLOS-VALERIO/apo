@@ -1,6 +1,6 @@
 // Service worker mínimo — necessário para o Chrome considerar a app "instalável".
 // Também guarda o essencial (index.html, ícones) em cache, para abrir mesmo sem internet.
-const CACHE_NAME = 'apo-cache-v1';
+const CACHE_NAME = 'apo-cache-v2';
 const APP_SHELL = [
   './index.html',
   './manifest.json',
